@@ -1,23 +1,98 @@
-
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>The Ruruchian Productions</title>
-		<link rel="stylesheet" type="text/css" href="/css/style.css"/>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:theruruche@gmail.com">email</a></li>
-        		<li><a href="https://github.com/TheRuruchianProductions/">github.com/TheRuruchianProductions</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+    <title>The Ruruchian Productions</title>
+    <meta name="description" content="Productions of Ruruche."/>
+    <meta property="og:title" content="TheRuruchianProductions"/>
+    <meta property="og:description" content="Productions of Ruruche."/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script>
+        var date=new Date,hours=date.getHours();document.documentElement.className+=hours>5&&18>hours?"day":"night";
+    </script>
+    <link rel="stylesheet" type="text/css" href="/resources/css/site.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta property="og:image" content="http://www.hyperscience.com/resources/images/facebook-share.jpg"/>
+    <script src="/resources/js/plugins/modernizr.min.js"></script>
+    <link href="/favicon.ico" type="image/ico" rel="icon"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/resources/images/icons/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="/resources/images/icons/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/resources/images/icons/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="/resources/images/icons/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="/resources/images/icons/apple-touch-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="/resources/images/icons/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="/resources/images/icons/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="/resources/images/icons/apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/images/icons/apple-touch-icon-180x180.png"/>
+</head>
+<body class="home visible">
+<header class="navigation" id="js-navigation" role="banner">
+    <nav class="container">
+        <div class="row">
+            <div class="navigation__logo"><a href="/">HyperScience <sup>TM</sup></a></div>
+            <ul class="navigation__links">
+                <li class="navigation__link"><a href="/job-openings/"><span>Job Openings</span><i class="icon-jobs"></i></a></li>
+                <li class="navigation__link"><a href="/about/"><span>About Us</span><i class="icon-about"></i></a></li>
+                <li class="navigation__link"><a href="/contact/"><span>Contact</span><i class="icon-contact"></i></a></li>
+                <li class="navigation__link"><i class="icon-day" id="js-day-night"></i></li>
+            </ul>
+        </div>
+        <div class="navigation__overlay" id="js-navigation-overlay"></div>
+    </nav>
+</header>
+<main>
+    <article class="container">
+        <div class="row">
+            <div class="homepage" id="js-homepage">
+                <div class="homepage__layout homepage__layout--logo" id="js-logo">HyperScience</div>
+                <div class="homepage__layout homepage__layout--circles homepage__layout--circles-1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <h1 class="homepage__title" id="js-title">HyperScience is an artificial intelligence startup.</h1>
+                <p class="homepage__summary" id="js-summary">We're currently in stealth</p>
+                <div class="homepage__layout homepage__layout--circle homepage__layout--circle-1"></div>
+                <div class="homepage__layout homepage__layout--vertical-lines homepage__layout--vertical-lines-1"></div>
+                <div class="homepage__layout homepage__layout--rectangle"></div>
+                <div class="homepage__layout homepage__layout--circle homepage__layout--circle-2"></div>
+                <div class="homepage__layout homepage__layout--circles homepage__layout--circles-2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="homepage__layout homepage__layout--vertical-lines homepage__layout--vertical-lines-2"></div>
+                <div class="homepage__layout homepage__layout--square"></div>
+            </div>
+        </div>
+    </article>
+</main>
+<footer role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <span>Copyright &copy; 2015 HyperScience All rights reserved.</span>
+            <ul>
+                <li><a href="/job-openings/">Job Openings</a></li>
+                <li><a href="/about/">About Us</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div class="time-overlay" id="js-time-overlay">
+    <div class="container">
+        <div class="row">
+            <span class="time-overlay__close" id="js-time-overlay-close">x</span>
+            <div class="time-overlay__wrapper">
+                <div class="time-overlay__day"><span class="icon-sun"></span>06:00 to 18:00</div>
+                <div class="time-overlay__time" id="js-time"></div>
+                <div class="time-overlay__night">18:00 to 06:00<span class="icon-moon"></span></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
+
+
